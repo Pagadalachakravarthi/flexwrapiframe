@@ -1,0 +1,137 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    background-color: rgb(2, 2, 66);
+    justify-content: space-between;
+    padding: 20px ;
+  
+}
+
+h1{
+    font-size: xx-large;
+    background-image: url(./image.png);
+    background-clip: text;
+    color: transparent;
+    animation: move 1s infinite;
+    align-items: center;
+}
+
+@keyframes move{
+    100%{
+        background-position-x: 500px;
+    }
+}
+
+.c1 {
+    color: white;
+    
+}
+.c2{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px ;
+    
+}
+.c3{
+    display: flex;
+    gap: 30px;
+    font-size: large;
+  
+}
+.c3 a{
+    color: white;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: red;
+}
+.s1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px 150px 30px;
+    row-gap: 20px;
+    flex: 1;
+    border-radius: 5px;
+    border: 3px solid black;
+    align-items: center;
+    
+}
+.s1,a{
+    color: black;
+}
+.s2{
+   display: flex;
+   border: 3px solid;
+   border-radius: 5px;
+   width: 80%;  
+}
+iframe{
+    
+    width: 80%;
+
+   
+}
+.s{
+    display: flex;
+    gap: 10px;
+    scroll-behavior: smooth;
+
+}
+.all{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.all li{
+    display: flex;
+    color: rgb(14, 1, 1);
+    border: 2px solid black;
+    width: 350px;
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.t{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+table{
+    border: 0px solid;
+    width: 80%;
+}
+table tr td{
+    width: 100px;
+    height: 50px;
+    padding-left: 30px;
+}
+table tr th{
+    background-color: rgba(130, 150, 50, 0.1);
+    height: 50px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+
